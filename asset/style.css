@@ -229,7 +229,7 @@ section span::before {
     }
 
     section h1 {
-        font-size:  4.5rem;
+        font-size:  3.5rem;
         line-height: 66px;
         margin-bottom: 2rem;
     }
@@ -241,13 +241,13 @@ section span::before {
 
     .jam .card {
         margin-bottom: 1rem;
-        min-width: 180px;
-        height: 180px;
+        min-width: 140px;
+        height: 140px;
     }
 
         
     .card h3 {
-        font-size: 4.5rem;
+        font-size: 3rem;
     }
 
     section .popup-card {

@@ -37,12 +37,12 @@ function createBubble() {
 
     setTimeout(()=>{
         createElement.remove();
-    },4000)
+    },5000)
 }
 
 setInterval(() => {
     createBubble();
-}, 80);
+}, 120);
 
 
 
@@ -51,16 +51,16 @@ function sapa() {
     let jam = new Date().getHours();
 
     if(jam > 18 ) {
-        h1.innerHTML = `Selamat Malam, ${nama}`
+        h1.innerHTML = `Hi, ${nama}`
     }
     else if(jam > 15) {
-        h1.innerHTML = `Selamat Sore, ${nama}`
+        h1.innerHTML = `Hi, ${nama}`
     }
     else if(jam > 11) {
-        h1.innerHTML = `Selamat Siang, ${nama}`
+        h1.innerHTML = `Hi, ${nama}`
     }
     else {
-        h1.innerHTML = `Selamat Pagi, ${nama}`
+        h1.innerHTML = `Hi, ${nama}`
     }
 }
 
